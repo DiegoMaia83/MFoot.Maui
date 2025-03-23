@@ -31,13 +31,8 @@ public partial class HomePage : ContentPage
         // Retorna a próxima rodada
         var proximaRodada = _campeonatoAplicacao.RetornarProximaRodadaTemporada(Convert.ToInt32(GameConfiguration.TemporadaAtual));
 
-        // Armazena o ano e data atual
-        GameConfiguration.AnoAtual = temporada.Ano.ToString();
-        GameConfiguration.DataAtual = temporada.DataInicio.ToString("yyyy-MM-dd");
-
         if (proximaRodada.Data.ToString("yyyy-MM-dd") == GameConfiguration.DataAtual)
         {
-            btnProximaRodada.IsVisible = true;
             btnProximaRodada.IsVisible = true;
         }
         else

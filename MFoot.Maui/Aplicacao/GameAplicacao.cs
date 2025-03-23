@@ -28,6 +28,12 @@ namespace MFoot.Maui.Aplicacao
         {
             try
             {
+                GameConfiguration.AnoAtual = "2025";
+                GameConfiguration.DataAtual = "2025-03-15";
+
+                int intervaloInicioTemporada = 1;
+                int intervaloEntrePartidas = 3;
+
                 await updateStatus("Criando banco de dados...");
                 InserirTabelas();
 
@@ -52,13 +58,13 @@ namespace MFoot.Maui.Aplicacao
                 var temporada = new Temporada
                 {
                     Ano = 2024,
-                    DataInicio = new DateTime(2024, 1, 31),
+                    DataInicio = Convert.ToDateTime(GameConfiguration.DataAtual).AddDays(intervaloInicioTemporada),
                     Atual = true
                 };
 
                 var temporadaInseridaId = _campeonatoAplicacao.InserirTemporada(temporada);
 
-                var dataAtual = new DateTime(2024, 3, 10);
+                var dataAtual = Convert.ToDateTime(GameConfiguration.DataAtual);
 
 
                 await updateStatus("Criando campeonatos...");
@@ -102,7 +108,7 @@ namespace MFoot.Maui.Aplicacao
                     {
                         for (var i = 1; i <= rodadasPorTurno; i++)
                         {
-                            dataAtual = dataAtual.AddDays(7);
+                            dataAtual = dataAtual.AddDays(intervaloEntrePartidas);
 
                             var rodada = new CampeonatoRodada
                             {

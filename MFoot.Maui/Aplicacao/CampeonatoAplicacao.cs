@@ -356,6 +356,7 @@ namespace MFoot.Maui.Aplicacao
                 rodada.CampeonatoId = reader.GetInt32(reader.GetOrdinal("CampeonatoId"));
                 rodada.Numero = reader.GetInt32(reader.GetOrdinal("Numero"));
                 rodada.Turno = reader.GetInt32(reader.GetOrdinal("Turno"));
+                rodada.Data = reader.GetDateTime(reader.GetOrdinal("Data"));
                 rodada.Concluida = reader.GetInt32(reader.GetOrdinal("Concluida")) == 1 ? true : false;
 
                 rodada.Partidas = ListarPartidasPorRodada(rodada.Id);

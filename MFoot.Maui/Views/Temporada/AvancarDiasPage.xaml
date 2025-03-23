@@ -17,7 +17,6 @@
 
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="Auto"/>
             </Grid.RowDefinitions>
@@ -31,6 +30,15 @@
                         <ColumnDefinition Width="*" />
                     </Grid.ColumnDefinitions>
 
+                    <StackLayout Grid.Column="0">
+                        <Button x:Name="btnRecarregar" Clicked="Button_Clicked" Text="Recarregar" HorizontalOptions="Start"/>
+                    </StackLayout>
+
+                    <StackLayout Grid.Column="1">
+                        <Label x:Name="labelTemporadaAno" FontSize="20" TextColor="White" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />
+                        <Label x:Name="labelTemporadaDataAtual" FontSize="12" TextColor="White" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />
+                    </StackLayout>
+
 
                     <StackLayout Grid.Column="1">
                         <Label FontSize="20" TextColor="White" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />
@@ -39,6 +47,29 @@
                 </Grid>
 
             </Frame>
+
+            <Grid Grid.Row="1" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+
+            </Grid>
+
+            <!-- Conteúdo da linha inferior -->
+            <Grid Grid.Row="2" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+
+                <BoxView Color="Black" Opacity="0.6" CornerRadius="0" />
+
+                <Grid Margin="20,10">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="0.2*" />
+                    </Grid.ColumnDefinitions>
+
+                    <Button Grid.Column="0" Text="Opções" WidthRequest="200" HorizontalOptions="Start" />
+
+                    <Button x:Name="btnAvancarDias" IsVisible="true" Grid.Column="1" Clicked="Button_AvancarDias" Text="Avançar" />
+
+                </Grid>
+
+            </Grid>
 
         </Grid>
 

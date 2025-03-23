@@ -37,7 +37,7 @@
 
                     <StackLayout Grid.Column="1">
                         <Label x:Name="labelTemporadaAno" FontSize="20" TextColor="White" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />
-                        <Label x:Name="labelTemporadaDataAtual" Text="Domingo, 14 de setembro de 2024" FontSize="12" TextColor="White" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />
+                        <Label x:Name="labelTemporadaDataAtual" FontSize="12" TextColor="White" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />
                     </StackLayout>
 
                     <Picker Grid.Column="2" x:Name="pickerDivisao" 
@@ -132,8 +132,8 @@
                     </Grid.ColumnDefinitions>
 
                     <Button Grid.Column="0" Text="Opções" WidthRequest="200" HorizontalOptions="Start" />
-                    
-                    <Button x:Name="btnProximaRodada" IsVisible="false" Grid.Column="1" Clicked="Button_ProximaRodada" Text="Próxima Rodada" />
+
+                    <Button x:Name="btnProximaRodada" IsVisible="false" BackgroundColor="Orange" Grid.Column="1" Clicked="Button_ProximaRodada" Text="Próxima Rodada" />
                     <Button x:Name="btnAvancarDias" IsVisible="false" Grid.Column="1" Clicked="Button_AvancarDias" Text="Avançar" />
                     
                 </Grid>
