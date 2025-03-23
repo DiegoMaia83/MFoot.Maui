@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MFoot.Maui.Views.Temporada.AvancarDiasPage"
+             Title="AvancarDiasPage">
+
+    <AbsoluteLayout>
+
+        <!-- Imagem de fundo -->
+        <Image Source="bg_01.jpg" 
+               Aspect="AspectFill" 
+               Opacity="1.0"
+               AbsoluteLayout.LayoutBounds="0, 0, 1, 1" 
+               AbsoluteLayout.LayoutFlags="All"/>
+
+        <Grid AbsoluteLayout.LayoutBounds="0, 0, 1, 1" AbsoluteLayout.LayoutFlags="All">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <Frame Grid.Row="0" BackgroundColor="DarkSlateGrey" CornerRadius="0" HasShadow="false" BorderColor="Transparent" Padding="20,10">
+
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+
+                    <StackLayout Grid.Column="1">
+                        <Label FontSize="20" TextColor="White" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />
+                    </StackLayout>
+
+                </Grid>
+
+            </Frame>
+
+        </Grid>
+
+    </AbsoluteLayout>
+</ContentPage>

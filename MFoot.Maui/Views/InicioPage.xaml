@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MFoot.Maui.Views.InicioPage"
+             Title="InicioPage">
+
+    <Grid>
+        
+        <VerticalStackLayout>
+
+            <Button Text="Novo Jogo" Clicked="Button_NovoJogo"/>
+            <ListView x:Name="jogosSalvosListView">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <VerticalStackLayout>
+                                <Button Text="{Binding .}" Clicked="Button_ContinuarJogo" />
+                            </VerticalStackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <Label x:Name="txtPreferences" />
+            <Label x:Name="txtDbConfiguration" />
+        
+        </VerticalStackLayout>
+
+        <AbsoluteLayout x:Name="alertBoxVisible" IsVisible="False" BackgroundColor="Transparent">
+            
+            <BoxView Color="Black" Opacity="0.7" AbsoluteLayout.LayoutBounds="0, 0, 1, 1" AbsoluteLayout.LayoutFlags="All"/>
+
+            <Frame AbsoluteLayout.LayoutBounds="0.5, 0.5, 0.3, 0.2" AbsoluteLayout.LayoutFlags="All" CornerRadius="2" BorderColor="Transparent" BackgroundColor="{StaticResource Primary}" Opacity="0.8">
+                <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                    <ActivityIndicator IsRunning="True" Color="White" WidthRequest="30" HeightRequest="30" HorizontalOptions="Center" VerticalOptions="Center"/>
+                    <Label x:Name="alertBoxMessage" Text="Carregando..." TextColor="White" Margin="0,10,0,0" HorizontalOptions="Center"/>
+                </StackLayout>                
+            </Frame>
+            
+        </AbsoluteLayout>
+
+    </Grid>
+    
+    
+</ContentPage>

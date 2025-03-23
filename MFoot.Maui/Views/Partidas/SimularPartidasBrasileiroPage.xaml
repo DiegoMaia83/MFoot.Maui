@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MFoot.Maui.Views.Partidas.SimularPartidas"
+             Title="SimularPartidas">
+
+
+    <AbsoluteLayout>
+
+        <!-- Imagem de fundo -->
+        <Image Source="bg_01.jpg" 
+               Aspect="AspectFill" 
+               Opacity="1.0"
+               AbsoluteLayout.LayoutBounds="0, 0, 1, 1" 
+               AbsoluteLayout.LayoutFlags="All"/>
+
+        <Grid AbsoluteLayout.LayoutBounds="0, 0, 1, 1" AbsoluteLayout.LayoutFlags="All">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <Frame Grid.Row="0" BackgroundColor="DarkSlateGrey" CornerRadius="0" HasShadow="false" BorderColor="Transparent" Padding="20,10">
+
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+
+                    <StackLayout Grid.Column="1">
+                        <Label x:Name="labelTemporada" FontSize="20" TextColor="White" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />
+                    </StackLayout>
+
+                </Grid>
+
+            </Frame>
+
+            <Grid Grid.Row="1" Padding="20,10,20,0">
+                <BoxView Color="Black" Opacity="0.6" CornerRadius="0" />
+                <Label Grid.Row="1" x:Name="Tempo" TextColor="White" Margin="20,10" />                
+            </Grid>
+
+            <!-- Conteúdo da linha superior -->
+            <Grid Grid.Row="2" Margin="0,0,0,50">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Grid Grid.Column="0" Margin="15" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+
+                    <BoxView Color="White" Opacity="0.8" CornerRadius="0" />
+
+                    <StackLayout Grid.Column="0" Margin="20">
+                        <ListView x:Name="partidasPrimeiraDivisaoView">
+                            <ListView.ItemTemplate>
+                                <DataTemplate>
+                                    <ViewCell>
+                                        <Grid>
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="120"  />
+                                                <ColumnDefinition Width="Auto" />
+                                                <ColumnDefinition Width="Auto" />
+                                                <ColumnDefinition Width="Auto" />
+                                                <ColumnDefinition Width="120" />
+                                                <ColumnDefinition Width="*" />
+                                            </Grid.ColumnDefinitions>
+                                            <Label Text="{Binding TimeCasa.Nome}" Grid.Column="0" HorizontalOptions="StartAndExpand" />
+                                            <Label Text="{Binding PlacarCasa}" Grid.Column="1" HorizontalOptions="Center" />
+                                            <Label Text="X" Grid.Column="2" HorizontalOptions="Center" />
+                                            <Label Text="{Binding PlacarVisitante}" Grid.Column="3" HorizontalOptions="Center" />
+                                            <Label Text="{Binding TimeVisitante.Nome}" Grid.Column="4" HorizontalOptions="EndAndExpand" />
+
+                                            <Grid Grid.Column="5" HorizontalOptions="StartAndExpand" VerticalOptions="Center" Padding="20,0">
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="Auto" />
+                                                    <ColumnDefinition Width="*" />
+                                                </Grid.ColumnDefinitions>
+
+                                                <Image Source="{Binding EventoIcone}" Grid.Column="0" HorizontalOptions="Start" VerticalOptions="Center" WidthRequest="12" HeightRequest="12" Margin="0,0,5,0" />
+
+                                                <Label Text="{Binding Evento}" Grid.Column="1" HorizontalOptions="StartAndExpand" VerticalOptions="Center" />
+                                            </Grid>
+                                        </Grid>
+                                    </ViewCell>
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                        </ListView>
+                    </StackLayout>
+                    
+                </Grid>
+
+
+                <Grid Grid.Column="1" Margin="15" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+
+                    <BoxView Color="White" Opacity="0.8" CornerRadius="0" />
+
+                    <StackLayout Grid.Column="0" Margin="20">
+                        <ListView x:Name="partidasSegundaDivisaoView">
+                            <ListView.ItemTemplate>
+                                <DataTemplate>
+                                    <ViewCell>
+                                        <Grid>
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="120"  />
+                                                <ColumnDefinition Width="Auto" />
+                                                <ColumnDefinition Width="Auto" />
+                                                <ColumnDefinition Width="Auto" />
+                                                <ColumnDefinition Width="120" />
+                                                <ColumnDefinition Width="*" />
+                                            </Grid.ColumnDefinitions>
+                                            <Label Text="{Binding TimeCasa.Nome}" Grid.Column="0" HorizontalOptions="StartAndExpand" />
+                                            <Label Text="{Binding PlacarCasa}" Grid.Column="1" HorizontalOptions="Center" />
+                                            <Label Text="X" Grid.Column="2" HorizontalOptions="Center" />
+                                            <Label Text="{Binding PlacarVisitante}" Grid.Column="3" HorizontalOptions="Center" />
+                                            <Label Text="{Binding TimeVisitante.Nome}" Grid.Column="4" HorizontalOptions="EndAndExpand" />
+
+                                            <Grid Grid.Column="5" HorizontalOptions="StartAndExpand" VerticalOptions="Center" Padding="20,0">
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="Auto" />
+                                                    <ColumnDefinition Width="*" />
+                                                </Grid.ColumnDefinitions>
+
+                                                <Image Source="{Binding EventoIcone}" Grid.Column="0" HorizontalOptions="Start" VerticalOptions="Center" WidthRequest="12" HeightRequest="12" Margin="0,0,5,0" />
+
+                                                <Label Text="{Binding Evento}" Grid.Column="1" HorizontalOptions="StartAndExpand" VerticalOptions="Center" />
+                                            </Grid>
+                                        </Grid>
+                                    </ViewCell>
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                        </ListView>
+                    </StackLayout>
+
+                </Grid>
+
+            </Grid>
+
+            <!-- Conteúdo da linha inferior -->
+            <Grid Grid.Row="3" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+
+                <BoxView Color="Black" Opacity="0.6" CornerRadius="0" />
+
+                <Grid Margin="20,10">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="0.2*" />
+                    </Grid.ColumnDefinitions>
+
+                    <Button Grid.Column="0" Text="Opções" WidthRequest="200" HorizontalOptions="Start" />
+                    <Button Grid.Column="1" Text="Simular Rodada" />
+                </Grid>
+
+            </Grid>
+
+        </Grid>
+
+    </AbsoluteLayout>
+
+
+</ContentPage>
