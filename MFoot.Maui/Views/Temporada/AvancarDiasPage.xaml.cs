@@ -23,14 +23,7 @@ public partial class AvancarDiasPage : ContentPage
 
     private void Button_AvancarDias(object sender, EventArgs e)
     {
-        var dataAtual = Convert.ToDateTime(GameConfiguration.DataAtual);
-
-        var proximoDia = dataAtual.AddDays(1);
-
-        GameConfiguration.DataAtual = proximoDia.ToString("yyyy-MM-dd");
-
-
-
+        Common.Util.AvancarDias(3);
 
         Application.Current.MainPage = _serviceProvider.GetService<HomePage>();
     }

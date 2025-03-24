@@ -201,7 +201,7 @@ public partial class SimularPartidas : ContentPage
                 }
 
                 updateCount++;
-                await Task.Delay(200); // Espera 1 segundo
+                await Task.Delay(100); // Espera 1 segundo
             }
 
             // Persistir os dados

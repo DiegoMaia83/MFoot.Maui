@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MFoot.Maui.Configuration;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -50,6 +51,15 @@ namespace MFoot.Maui.Common
             }
 
             return cor;
+        }
+
+        public static void AvancarDias(int dias)
+        {
+            var dataAtual = Convert.ToDateTime(GameConfiguration.DataAtual);
+
+            var proximoDia = dataAtual.AddDays(dias);
+
+            GameConfiguration.DataAtual = proximoDia.ToString("yyyy-MM-dd");
         }
 
         public static string DateToSqLite(DateTime? date)

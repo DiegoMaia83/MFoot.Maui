@@ -22,9 +22,6 @@ public partial class HomePage : ContentPage
         _campeonatoAplicacao = campeonatoAplicacao;
         _timeAplicacao = timeAplicacao;
 
-        // Armazena a temporada atual
-        GameConfiguration.TemporadaAtual = Convert.ToString(_campeonatoAplicacao.RetornarTemporadaAtual());
-
         // Retorna os dados da temporada atual
         var temporada = _campeonatoAplicacao.RetornarTemporada(Convert.ToInt32(GameConfiguration.TemporadaAtual));
 

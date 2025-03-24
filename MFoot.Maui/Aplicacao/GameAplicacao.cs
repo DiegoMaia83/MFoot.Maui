@@ -30,8 +30,8 @@ namespace MFoot.Maui.Aplicacao
             {
                 GameConfiguration.AnoAtual = "2025";
                 GameConfiguration.DataAtual = "2025-03-15";
+                GameConfiguration.TemporadaAtual = "1";
 
-                int intervaloInicioTemporada = 1;
                 int intervaloEntrePartidas = 3;
 
                 await updateStatus("Criando banco de dados...");
@@ -57,8 +57,8 @@ namespace MFoot.Maui.Aplicacao
                 // Inserir temporada inicial
                 var temporada = new Temporada
                 {
-                    Ano = 2024,
-                    DataInicio = Convert.ToDateTime(GameConfiguration.DataAtual).AddDays(intervaloInicioTemporada),
+                    Ano = Convert.ToInt32(GameConfiguration.TemporadaAtual),
+                    DataInicio = Convert.ToDateTime(GameConfiguration.DataAtual),
                     Atual = true
                 };
 
@@ -203,7 +203,6 @@ namespace MFoot.Maui.Aplicacao
             }
         }
 
-
         public void AtualizarDadosDaRodada(CampeonatoRodada rodada)
         {
             try
@@ -312,7 +311,6 @@ namespace MFoot.Maui.Aplicacao
                 throw;
             }
         }
-
 
         private void InserirTabelas()
         {
