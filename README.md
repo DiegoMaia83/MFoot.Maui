@@ -1,7 +1,11 @@
 # MFoot - Simulador de partidas de futebol
 
 O **MFoot** é um simulador dinâmico de partidas de futebol que calcula os resultados com base em diversos fatores realistas.
+
 A proposta é oferecer uma experiência estratégica e imprevisível, onde cada confronto é influenciado por atributos individuais e coletivos.
+
+Os dados dos jogadores e times são coletados pelo site https://www.transfermarkt.com.br, convertidos para JSON e através desse arquivo gerado a pontuação e atributos de jogadores.
+
 
 ---
 
