@@ -233,6 +233,34 @@ namespace MFoot.Maui.Aplicacao
             }
         }
 
+        public List<Jogador> ListarJogadoresSuspensos(bool titulares)
+        {
+            try
+            {
+                var sql = new StringBuilder();
+                sql.AppendFormat(" SELECT t1.*, CAST((JULIANDAY('{0}') - JULIANDAY(DataNascimento)) / 365.25 AS INTEGER) AS Idade ", GameConfiguration.DataAtual);
+                sql.Append(" FROM jogadores t1 ");
+                sql.AppendFormat(" LEFT JOIN jogadores_suspensoes t2 on t2.JogadorId = t1.Id ");
+                sql.AppendFormat(" WHERE t1.Titular = {0} and t2.Concluido = 0 ", titulares ? 1 : 0);
+
+                using (var reader = _conexaoSqLite.ExecuteReader(sql.ToString()))
+                {
+                    var jogadores = new List<Jogador>();
+
+                    while (reader.Read())
+                    {
+                        jogadores.Add(PopularJogador(reader));
+                    }
+
+                    return jogadores;
+                }
+            }
+            catch
+            {
+                throw;
+            }
+        }
+
         public Jogador RetornarJogador(int jogadorId)
         {
             try
@@ -372,6 +400,27 @@ namespace MFoot.Maui.Aplicacao
                 var jogadoresResitenciaBaixa = ListarJogadoresResistenciaBaixa();
 
                 foreach (var jogador in jogadoresResitenciaBaixa)
+                {
+                    var jogadorQueSai = jogador;
+                    var jogadorQueEntra = RetornarJogadorSubstitituto(jogador.TimeId, jogador.Posicao, jogador.Zona);
+
+                    AtualizaTitularidadeJogador(jogadorQueSai, false);
+                    AtualizaTitularidadeJogador(jogadorQueEntra, true);
+                }
+            }
+            catch
+            {
+                throw;
+            }
+        }
+
+        public void SubstituirJogadoresSuspensos()
+        {
+            try
+            {
+                var jogadoresSuspensos = ListarJogadoresSuspensos(true);
+
+                foreach (var jogador in jogadoresSuspensos)
                 {
                     var jogadorQueSai = jogador;
                     var jogadorQueEntra = RetornarJogadorSubstitituto(jogador.TimeId, jogador.Posicao, jogador.Zona);

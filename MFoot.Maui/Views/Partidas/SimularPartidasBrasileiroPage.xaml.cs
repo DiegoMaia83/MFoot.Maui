@@ -80,6 +80,7 @@ public partial class SimularPartidas : ContentPage
                     var chanceVistante = RetornarChanceGol(partida.TimeVisitante, partida.TimeCasa, false);
 
                     var eventoProcessado = ProcessarEvento(chanceCasa, chanceVistante);
+                    var eventoExibicao = "";
 
                     if (eventoProcessado != "")
                     {
@@ -100,7 +101,7 @@ public partial class SimularPartidas : ContentPage
                             evento.JogadorId = jogadorGolCasa.Id;
                             evento.Tempo = updateCount;
 
-                            eventoProcessado += " ( " + jogadorGolCasa.Nome + " )";
+                            eventoExibicao = "Gol ( " + jogadorGolCasa.Nome + " )";
                         }
 
                         if (eventoProcessado == "gol_visitante")
@@ -117,7 +118,7 @@ public partial class SimularPartidas : ContentPage
                             evento.JogadorId = jogadorGolVisitante.Id;
                             evento.Tempo = updateCount;
 
-                            eventoProcessado += " ( " + RetonarJogadorMarcarGol(partida.TimeVisitante).Nome + " )";
+                            eventoExibicao = "Gol ( " + RetonarJogadorMarcarGol(partida.TimeVisitante).Nome + " )";
                         }
 
                         if (eventoProcessado == "cartao_amarelo")
@@ -132,7 +133,7 @@ public partial class SimularPartidas : ContentPage
                             evento.JogadorId = jogadorCartaoAmarelo.Id;
                             evento.Tempo = updateCount;
 
-                            eventoProcessado += " ( " + jogadorCartaoAmarelo.Nome + " )";
+                            eventoExibicao = "Cartão amarelo ( " + jogadorCartaoAmarelo.Nome + " )";
                         }                        
 
                         if (eventoProcessado == "cartao_vermelho")
@@ -147,13 +148,13 @@ public partial class SimularPartidas : ContentPage
                             evento.JogadorId = jogadorCartaoVermelho.Id;
                             evento.Tempo = updateCount;
 
-                            eventoProcessado += " ( " + jogadorCartaoVermelho.Nome + " )";
+                            eventoExibicao = "Cartão vermelho ( " + jogadorCartaoVermelho.Nome + " )";
 
                             RemoverJogadorPorExpulsao(jogadorCartaoVermelho, partida.TimeCasa, partida.TimeVisitante);
                         }
 
                         partida.Eventos.Add(evento);
-                        partida.Evento = eventoProcessado;
+                        partida.Evento = eventoExibicao;
 
                         var segundoCartao = partida.Eventos.Where(x => x.JogadorId == evento.JogadorId && x.TipoId == 2).Count();
 
@@ -170,14 +171,14 @@ public partial class SimularPartidas : ContentPage
                                 TimeId = jogadorSegundoCartao.TimeId,
                                 JogadorId = jogadorSegundoCartao.Id,
                                 Tempo = updateCount
-                            };                            
+                            };
 
-                            eventoProcessado += " ( " + jogadorSegundoCartao.Nome + " )";
+                            eventoExibicao = "Cartão vermelho ( " + jogadorSegundoCartao.Nome + " )";
 
                             RemoverJogadorPorExpulsao(jogadorSegundoCartao, partida.TimeCasa, partida.TimeVisitante);
 
                             partida.Eventos.Add(novoEvento);
-                            partida.Evento = eventoProcessado;
+                            partida.Evento = eventoExibicao;
                         }
                         
                     }
@@ -211,6 +212,7 @@ public partial class SimularPartidas : ContentPage
             // Atualizar dados Pós Rodada
             _timeAplicacao.RecuperarResistenciaJogadoresPosRodada();
             _timeAplicacao.SubstituirJogadoreResistenciaBaixa();
+            _timeAplicacao.SubstituirJogadoresSuspensos();
 
             Application.Current.MainPage = _serviceProvider.GetService<HomePage>();
         }
