@@ -1,0 +1,1492 @@
+[
+    {
+        "Id": 21,
+        "Nome": "Santos FC",
+        "Estadio": "Estádio Urbano Caldeira",
+        "Capacidade": "16068",
+        "Jogadores": [
+            {
+                "Nome": "João Paulo",
+                "Posicao": "Goleiro",
+                "Valor": "5,50 mi. €",
+                "DataNascimento": "29/06/1995",
+                "Numero": "1"
+            },
+            {
+                "Nome": "Renan",
+                "Posicao": "Goleiro",
+                "Valor": "300 mil €",
+                "DataNascimento": "18/05/1989",
+                "Numero": "-"
+            },
+            {
+                "Nome": "Gabriel Brazão",
+                "Posicao": "Goleiro",
+                "Valor": "300 mil €",
+                "DataNascimento": "05/10/2000",
+                "Numero": "77"
+            },
+            {
+                "Nome": "Diógenes",
+                "Posicao": "Goleiro",
+                "Valor": "100 mil €",
+                "DataNascimento": "06/01/2001",
+                "Numero": "12"
+            },
+            {
+                "Nome": "Basso",
+                "Posicao": "Zagueiro",
+                "Valor": "2,00 mi. €",
+                "DataNascimento": "13/01/1997",
+                "Numero": "15"
+            },
+            {
+                "Nome": "Alex",
+                "Posicao": "Zagueiro",
+                "Valor": "500 mil €",
+                "DataNascimento": "10/05/1999",
+                "Numero": "2"
+            },
+            {
+                "Nome": "Gil",
+                "Posicao": "Zagueiro",
+                "Valor": "300 mil €",
+                "DataNascimento": "12/06/1987",
+                "Numero": "4"
+            },
+            {
+                "Nome": "Jair Cunha",
+                "Posicao": "Zagueiro",
+                "Valor": "200 mil €",
+                "DataNascimento": "07/03/2005",
+                "Numero": "32"
+            },
+            {
+                "Nome": "Kevyson",
+                "Posicao": "Lateral Esq.",
+                "Valor": "800 mil €",
+                "DataNascimento": "29/03/2004",
+                "Numero": "38"
+            },
+            {
+                "Nome": "Gonzalo Escobar",
+                "Posicao": "Lateral Esq.",
+                "Valor": "600 mil €",
+                "DataNascimento": "16/03/1997",
+                "Numero": "31"
+            },
+            {
+                "Nome": "Dodô",
+                "Posicao": "Lateral Esq.",
+                "Valor": "500 mil €",
+                "DataNascimento": "06/02/1992",
+                "Numero": "16"
+            },
+            {
+                "Nome": "Souza",
+                "Posicao": "Lateral Esq.",
+                "Valor": "100 mil €",
+                "DataNascimento": "16/06/2006",
+                "Numero": "33"
+            },
+            {
+                "Nome": "Hayner",
+                "Posicao": "Lateral Dir.",
+                "Valor": "800 mil €",
+                "DataNascimento": "02/10/1995",
+                "Numero": "3"
+            },
+            {
+                "Nome": "Rodrigo Ferreira",
+                "Posicao": "Lateral Dir.",
+                "Valor": "600 mil €",
+                "DataNascimento": "29/03/1995",
+                "Numero": "29"
+            },
+            {
+                "Nome": "Aderlan",
+                "Posicao": "Lateral Dir.",
+                "Valor": "500 mil €",
+                "DataNascimento": "18/08/1990",
+                "Numero": "13"
+            },
+            {
+                "Nome": "JP Chermont",
+                "Posicao": "Lateral Dir.",
+                "Valor": "",
+                "DataNascimento": "18/01/2006",
+                "Numero": "44"
+            },
+            {
+                "Nome": "Sandry",
+                "Posicao": "Volante",
+                "Valor": "3,00 mi. €",
+                "DataNascimento": "30/08/2002",
+                "Numero": "23"
+            },
+            {
+                "Nome": "João Schmidt",
+                "Posicao": "Volante",
+                "Valor": "1,00 mi. €",
+                "DataNascimento": "19/05/1993",
+                "Numero": "5"
+            },
+            {
+                "Nome": "Vinicius Balieiro",
+                "Posicao": "Volante",
+                "Valor": "800 mil €",
+                "DataNascimento": "28/05/1999",
+                "Numero": "17"
+            },
+            {
+                "Nome": "Alison",
+                "Posicao": "Volante",
+                "Valor": "400 mil €",
+                "DataNascimento": "01/03/1993",
+                "Numero": "25"
+            },
+            {
+                "Nome": "Tomás Rincón",
+                "Posicao": "Volante",
+                "Valor": "300 mil €",
+                "DataNascimento": "13/01/1988",
+                "Numero": "8"
+            },
+            {
+                "Nome": "Patrick",
+                "Posicao": "Meia Central",
+                "Valor": "2,00 mi. €",
+                "DataNascimento": "29/07/1992",
+                "Numero": "88"
+            },
+            {
+                "Nome": "Diego Pituca",
+                "Posicao": "Meia Central",
+                "Valor": "1,60 mi. €",
+                "DataNascimento": "15/08/1992",
+                "Numero": "21"
+            },
+            {
+                "Nome": "Ed Carlos",
+                "Posicao": "Meia Central",
+                "Valor": "800 mil €",
+                "DataNascimento": "19/03/2001",
+                "Numero": "-"
+            },
+            {
+                "Nome": "Giuliano",
+                "Posicao": "Meia Ofensivo",
+                "Valor": "900 mil €",
+                "DataNascimento": "31/05/1990",
+                "Numero": "20"
+            },
+            {
+                "Nome": "Rómulo Otero",
+                "Posicao": "Meia Ofensivo",
+                "Valor": "800 mil €",
+                "DataNascimento": "09/11/1992",
+                "Numero": "22"
+            },
+            {
+                "Nome": "Miguelito",
+                "Posicao": "Meia Ofensivo",
+                "Valor": "500 mil €",
+                "DataNascimento": "25/04/2004",
+                "Numero": "47"
+            },
+            {
+                "Nome": "Hyan",
+                "Posicao": "Meia Ofensivo",
+                "Valor": "100 mil €",
+                "DataNascimento": "24/03/2004",
+                "Numero": "14"
+            },
+            {
+                "Nome": "Serginho",
+                "Posicao": "Meia Ofensivo",
+                "Valor": "",
+                "DataNascimento": "03/12/1990",
+                "Numero": "37"
+            },
+            {
+                "Nome": "Guilherme",
+                "Posicao": "Ponta Esquerda",
+                "Valor": "1,00 mi. €",
+                "DataNascimento": "13/04/1995",
+                "Numero": "11"
+            },
+            {
+                "Nome": "Billy Arce",
+                "Posicao": "Ponta Esquerda",
+                "Valor": "900 mil €",
+                "DataNascimento": "12/07/1998",
+                "Numero": "81"
+            },
+            {
+                "Nome": "Pedrinho",
+                "Posicao": "Ponta Esquerda",
+                "Valor": "800 mil €",
+                "DataNascimento": "10/11/1999",
+                "Numero": "7"
+            },
+            {
+                "Nome": "Weslley Patati",
+                "Posicao": "Ponta Direita",
+                "Valor": "900 mil €",
+                "DataNascimento": "01/10/2003",
+                "Numero": "42"
+            },
+            {
+                "Nome": "Wendel Silva",
+                "Posicao": "Centroavante",
+                "Valor": "1,20 mi. €",
+                "DataNascimento": "02/08/2000",
+                "Numero": "19"
+            },
+            {
+                "Nome": "Julio Furch",
+                "Posicao": "Centroavante",
+                "Valor": "700 mil €",
+                "DataNascimento": "29/07/1989",
+                "Numero": "9"
+            },
+            {
+                "Nome": "Willian",
+                "Posicao": "Centroavante",
+                "Valor": "250 mil €",
+                "DataNascimento": "19/11/1986",
+                "Numero": "27"
+            }
+        ]
+    },
+    {
+        "Id": 22,
+        "Nome": "Coritiba FC",
+        "Estadio": "Estádio Major Antônio Couto Pereira",
+        "Capacidade": "40502",
+        "Jogadores": [
+            {
+                "Nome": "Pedro Morisco",
+                "Posicao": "Goleiro",
+                "Valor": "100 mil €",
+                "DataNascimento": "10/01/2004",
+                "Numero": "72"
+            },
+            {
+                "Nome": "Gabriel Leite",
+                "Posicao": "Goleiro",
+                "Valor": "50 mil €",
+                "DataNascimento": "28/12/1987",
+                "Numero": "87"
+            },
+            {
+                "Nome": "Marcelo Benevenuto",
+                "Posicao": "Zagueiro",
+                "Valor": "2,00 mi. €",
+                "DataNascimento": "07/01/1996",
+                "Numero": "4"
+            },
+            {
+                "Nome": "Bruno Melo",
+                "Posicao": "Zagueiro",
+                "Valor": "400 mil €",
+                "DataNascimento": "26/10/1992",
+                "Numero": "26"
+            },
+            {
+                "Nome": "Maurício Antônio",
+                "Posicao": "Zagueiro",
+                "Valor": "300 mil €",
+                "DataNascimento": "06/02/1992",
+                "Numero": "5"
+            },
+            {
+                "Nome": "Thalisson",
+                "Posicao": "Zagueiro",
+                "Valor": "300 mil €",
+                "DataNascimento": "20/01/2002",
+                "Numero": "14"
+            },
+            {
+                "Nome": "Jamerson",
+                "Posicao": "Lateral Esq.",
+                "Valor": "1,00 mi. €",
+                "DataNascimento": "09/09/1998",
+                "Numero": "83"
+            },
+            {
+                "Nome": "Rodrigo Gelado",
+                "Posicao": "Lateral Esq.",
+                "Valor": "400 mil €",
+                "DataNascimento": "28/09/2003",
+                "Numero": "6"
+            },
+            {
+                "Nome": "Natanael",
+                "Posicao": "Lateral Dir.",
+                "Valor": "2,00 mi. €",
+                "DataNascimento": "05/01/2002",
+                "Numero": "16"
+            },
+            {
+                "Nome": "Jhonny",
+                "Posicao": "Lateral Dir.",
+                "Valor": "150 mil €",
+                "DataNascimento": "16/04/2002",
+                "Numero": "43"
+            },
+            {
+                "Nome": "Zé Gabriel",
+                "Posicao": "Volante",
+                "Valor": "1,50 mi. €",
+                "DataNascimento": "21/01/1999",
+                "Numero": "8"
+            },
+            {
+                "Nome": "Bernardo",
+                "Posicao": "Volante",
+                "Valor": "500 mil €",
+                "DataNascimento": "08/01/2002",
+                "Numero": "23"
+            },
+            {
+                "Nome": "Vini Paulista",
+                "Posicao": "Volante",
+                "Valor": "500 mil €",
+                "DataNascimento": "22/03/2001",
+                "Numero": "36"
+            },
+            {
+                "Nome": "Geovane Meurer",
+                "Posicao": "Volante",
+                "Valor": "300 mil €",
+                "DataNascimento": "25/05/2002",
+                "Numero": "38"
+            },
+            {
+                "Nome": "Sebastián Gómez",
+                "Posicao": "Meia Central",
+                "Valor": "1,50 mi. €",
+                "DataNascimento": "03/06/1996",
+                "Numero": "19"
+            },
+            {
+                "Nome": "Matheus Bianqui",
+                "Posicao": "Meia Central",
+                "Valor": "800 mil €",
+                "DataNascimento": "31/01/1998",
+                "Numero": "18"
+            },
+            {
+                "Nome": "Everton Morelli",
+                "Posicao": "Meia Central",
+                "Valor": "400 mil €",
+                "DataNascimento": "04/11/1997",
+                "Numero": "40"
+            },
+            {
+                "Nome": "Matheus Frizzo",
+                "Posicao": "Meia Ofensivo",
+                "Valor": "1,20 mi. €",
+                "DataNascimento": "24/07/1998",
+                "Numero": "10"
+            },
+            {
+                "Nome": "Josué",
+                "Posicao": "Meia Ofensivo",
+                "Valor": "600 mil €",
+                "DataNascimento": "17/09/1990",
+                "Numero": "27"
+            },
+            {
+                "Nome": "Yago",
+                "Posicao": "Meia Ofensivo",
+                "Valor": "",
+                "DataNascimento": "02/08/2001",
+                "Numero": "17"
+            },
+            {
+                "Nome": "Figueiredo",
+                "Posicao": "Ponta Esquerda",
+                "Valor": "2,50 mi. €",
+                "DataNascimento": "14/08/2001",
+                "Numero": "22"
+            },
+            {
+                "Nome": "Alef Manga",
+                "Posicao": "Ponta Esquerda",
+                "Valor": "1,00 mi. €",
+                "DataNascimento": "29/11/1994",
+                "Numero": "11"
+            },
+            {
+                "Nome": "Robson",
+                "Posicao": "Ponta Direita",
+                "Valor": "900 mil €",
+                "DataNascimento": "30/05/1991",
+                "Numero": "30"
+            },
+            {
+                "Nome": "Eryc Castillo",
+                "Posicao": "Ponta Direita",
+                "Valor": "600 mil €",
+                "DataNascimento": "05/02/1995",
+                "Numero": "7"
+            },
+            {
+                "Nome": "Wesley Pomba",
+                "Posicao": "Ponta Direita",
+                "Valor": "400 mil €",
+                "DataNascimento": "02/06/2002",
+                "Numero": "57"
+            },
+            {
+                "Nome": "Lucas Ronier",
+                "Posicao": "Ponta Direita",
+                "Valor": "400 mil €",
+                "DataNascimento": "26/11/2004",
+                "Numero": "98"
+            },
+            {
+                "Nome": "Júnior Brumado",
+                "Posicao": "Centroavante",
+                "Valor": "800 mil €",
+                "DataNascimento": "15/05/1999",
+                "Numero": "9"
+            },
+            {
+                "Nome": "Éberth",
+                "Posicao": "Centroavante",
+                "Valor": "400 mil €",
+                "DataNascimento": "19/06/2003",
+                "Numero": "77"
+            },
+            {
+                "Nome": "Brandão",
+                "Posicao": "Centroavante",
+                "Valor": "50 mil €",
+                "DataNascimento": "25/06/2004",
+                "Numero": "21"
+            }
+        ]
+    },
+    {
+        "Id": 23,
+        "Nome": "Ceará SC",
+        "Estadio": "Estádio Governador Plácido Castelo",
+        "Capacidade": "60326",
+        "Jogadores": [
+            {
+                "Nome": "Richard Costa",
+                "Posicao": "Goleiro",
+                "Valor": "250 mil €",
+                "DataNascimento": "01/03/1991",
+                "Numero": "1"
+            },
+            {
+                "Nome": "Maycon Cleiton",
+                "Posicao": "Goleiro",
+                "Valor": "250 mil €",
+                "DataNascimento": "08/11/1998",
+                "Numero": "12"
+            },
+            {
+                "Nome": "Bruno",
+                "Posicao": "Goleiro",
+                "Valor": "200 mil €",
+                "DataNascimento": "16/03/1994",
+                "Numero": "94"
+            },
+            {
+                "Nome": "Fernando Miguel",
+                "Posicao": "Goleiro",
+                "Valor": "150 mil €",
+                "DataNascimento": "02/02/1985",
+                "Numero": "22"
+            },
+            {
+                "Nome": "Matheus Felipe",
+                "Posicao": "Zagueiro",
+                "Valor": "1,20 mi. €",
+                "DataNascimento": "09/11/1998",
+                "Numero": "42"
+            },
+            {
+                "Nome": "Gabriel Lacerda",
+                "Posicao": "Zagueiro",
+                "Valor": "650 mil €",
+                "DataNascimento": "29/08/1999",
+                "Numero": "15"
+            },
+            {
+                "Nome": "David Ricardo",
+                "Posicao": "Zagueiro",
+                "Valor": "600 mil €",
+                "DataNascimento": "21/12/2002",
+                "Numero": "4"
+            },
+            {
+                "Nome": "Ramon Menezes",
+                "Posicao": "Zagueiro",
+                "Valor": "400 mil €",
+                "DataNascimento": "03/05/1995",
+                "Numero": "40"
+            },
+            {
+                "Nome": "Tchoca",
+                "Posicao": "Zagueiro",
+                "Valor": "300 mil €",
+                "DataNascimento": "31/12/2003",
+                "Numero": "3"
+            },
+            {
+                "Nome": "Luiz Otávio",
+                "Posicao": "Zagueiro",
+                "Valor": "200 mil €",
+                "DataNascimento": "14/09/1988",
+                "Numero": "13"
+            },
+            {
+                "Nome": "Yago",
+                "Posicao": "Zagueiro",
+                "Valor": "50 mil €",
+                "DataNascimento": "30/01/2003",
+                "Numero": "96"
+            },
+            {
+                "Nome": "Paulo Victor",
+                "Posicao": "Lateral Esq.",
+                "Valor": "1,50 mi. €",
+                "DataNascimento": "13/04/2001",
+                "Numero": "21"
+            },
+            {
+                "Nome": "Matheus Bahia",
+                "Posicao": "Lateral Esq.",
+                "Valor": "1,20 mi. €",
+                "DataNascimento": "11/08/1999",
+                "Numero": "79"
+            },
+            {
+                "Nome": "Eric",
+                "Posicao": "Lateral Esq.",
+                "Valor": "100 mil €",
+                "DataNascimento": "07/08/2000",
+                "Numero": "14"
+            },
+            {
+                "Nome": "Raí Ramos",
+                "Posicao": "Lateral Dir.",
+                "Valor": "500 mil €",
+                "DataNascimento": "06/05/1994",
+                "Numero": "2"
+            },
+            {
+                "Nome": "Rafael Ramos",
+                "Posicao": "Lateral Dir.",
+                "Valor": "500 mil €",
+                "DataNascimento": "09/01/1995",
+                "Numero": "6"
+            },
+            {
+                "Nome": "Andrey",
+                "Posicao": "Volante",
+                "Valor": "2,00 mi. €",
+                "DataNascimento": "15/02/1998",
+                "Numero": "98"
+            },
+            {
+                "Nome": "Patrick de Lucca",
+                "Posicao": "Volante",
+                "Valor": "1,80 mi. €",
+                "DataNascimento": "02/03/2000",
+                "Numero": "8"
+            },
+            {
+                "Nome": "Jean Irmer",
+                "Posicao": "Volante",
+                "Valor": "400 mil €",
+                "DataNascimento": "26/09/1994",
+                "Numero": "5"
+            },
+            {
+                "Nome": "Richardson",
+                "Posicao": "Volante",
+                "Valor": "300 mil €",
+                "DataNascimento": "17/08/1991",
+                "Numero": "26"
+            },
+            {
+                "Nome": "Jotavê",
+                "Posicao": "Volante",
+                "Valor": "50 mil €",
+                "DataNascimento": "08/11/2003",
+                "Numero": "29"
+            },
+            {
+                "Nome": "Léo Rafael",
+                "Posicao": "Meia Central",
+                "Valor": "",
+                "DataNascimento": "25/04/2001",
+                "Numero": "80"
+            },
+            {
+                "Nome": "Lourenço",
+                "Posicao": "Meia Ofensivo",
+                "Valor": "1,00 mi. €",
+                "DataNascimento": "07/09/1997",
+                "Numero": "97"
+            },
+            {
+                "Nome": "Vina",
+                "Posicao": "Meia Ofensivo",
+                "Valor": "800 mil €",
+                "DataNascimento": "15/04/1991",
+                "Numero": "-"
+            },
+            {
+                "Nome": "Jorge Recalde",
+                "Posicao": "Meia Ofensivo",
+                "Valor": "600 mil €",
+                "DataNascimento": "08/05/1992",
+                "Numero": "28"
+            },
+            {
+                "Nome": "Lucas Mugni",
+                "Posicao": "Meia Ofensivo",
+                "Valor": "300 mil €",
+                "DataNascimento": "12/01/1992",
+                "Numero": "10"
+            },
+            {
+                "Nome": "Caio Rafael",
+                "Posicao": "Meia Ofensivo",
+                "Valor": "150 mil €",
+                "DataNascimento": "14/06/2004",
+                "Numero": "82"
+            },
+            {
+                "Nome": "Erick Pulga",
+                "Posicao": "Ponta Esquerda",
+                "Valor": "1,00 mi. €",
+                "DataNascimento": "02/10/2000",
+                "Numero": "16"
+            },
+            {
+                "Nome": "Talisson",
+                "Posicao": "Ponta Esquerda",
+                "Valor": "700 mil €",
+                "DataNascimento": "21/05/2002",
+                "Numero": "70"
+            },
+            {
+                "Nome": "Aylon",
+                "Posicao": "Ponta Esquerda",
+                "Valor": "350 mil €",
+                "DataNascimento": "07/04/1992",
+                "Numero": "11"
+            },
+            {
+                "Nome": "João Victor",
+                "Posicao": "Ponta Esquerda",
+                "Valor": "150 mil €",
+                "DataNascimento": "27/04/2004",
+                "Numero": "17"
+            },
+            {
+                "Nome": "Rafinha",
+                "Posicao": "Ponta Esquerda",
+                "Valor": "",
+                "DataNascimento": "14/02/2000",
+                "Numero": "-"
+            },
+            {
+                "Nome": "Facundo Castro",
+                "Posicao": "Ponta Direita",
+                "Valor": "550 mil €",
+                "DataNascimento": "22/01/1995",
+                "Numero": "7"
+            },
+            {
+                "Nome": "Lucas Rian",
+                "Posicao": "Seg. Atacante",
+                "Valor": "",
+                "DataNascimento": "03/06/2000",
+                "Numero": "77"
+            },
+            {
+                "Nome": "Facundo Barceló",
+                "Posicao": "Centroavante",
+                "Valor": "600 mil €",
+                "DataNascimento": "31/03/1993",
+                "Numero": "31"
+            },
+            {
+                "Nome": "Cléber",
+                "Posicao": "Centroavante",
+                "Valor": "500 mil €",
+                "DataNascimento": "22/10/1996",
+                "Numero": "89"
+            },
+            {
+                "Nome": "Saulo Mineiro",
+                "Posicao": "Centroavante",
+                "Valor": "350 mil €",
+                "DataNascimento": "17/06/1997",
+                "Numero": "73"
+            }
+        ]
+    },
+    {
+        "Id": 24,
+        "Nome": "Sport Recife",
+        "Estadio": "Estádio Adelmar da Costa Carvalho",
+        "Capacidade": "35000",
+        "Jogadores": [
+            {
+                "Nome": "Caíque França",
+                "Posicao": "Goleiro",
+                "Valor": "450 mil €",
+                "DataNascimento": "03/06/1995",
+                "Numero": "22"
+            },
+            {
+                "Nome": "Jordan",
+                "Posicao": "Goleiro",
+                "Valor": "300 mil €",
+                "DataNascimento": "06/02/1998",
+                "Numero": "76"
+            },
+            {
+                "Nome": "Thiago Couto",
+                "Posicao": "Goleiro",
+                "Valor": "200 mil €",
+                "DataNascimento": "26/03/1999",
+                "Numero": "21"
+            },
+            {
+                "Nome": "Denis",
+                "Posicao": "Goleiro",
+                "Valor": "150 mil €",
+                "DataNascimento": "14/04/1987",
+                "Numero": "1"
+            },
+            {
+                "Nome": "Rafael Thyere",
+                "Posicao": "Zagueiro",
+                "Valor": "600 mil €",
+                "DataNascimento": "17/05/1993",
+                "Numero": "15"
+            },
+            {
+                "Nome": "Chico",
+                "Posicao": "Zagueiro",
+                "Valor": "500 mil €",
+                "DataNascimento": "14/09/1998",
+                "Numero": "44"
+            },
+            {
+                "Nome": "Luciano Castán",
+                "Posicao": "Zagueiro",
+                "Valor": "300 mil €",
+                "DataNascimento": "13/09/1989",
+                "Numero": "40"
+            },
+            {
+                "Nome": "Allyson",
+                "Posicao": "Zagueiro",
+                "Valor": "200 mil €",
+                "DataNascimento": "23/10/1990",
+                "Numero": "2"
+            },
+            {
+                "Nome": "Alisson Cassiano",
+                "Posicao": "Zagueiro",
+                "Valor": "150 mil €",
+                "DataNascimento": "28/05/1994",
+                "Numero": "12"
+            },
+            {
+                "Nome": "Renzo",
+                "Posicao": "Zagueiro",
+                "Valor": "150 mil €",
+                "DataNascimento": "17/10/2001",
+                "Numero": "13"
+            },
+            {
+                "Nome": "Riquelme",
+                "Posicao": "Lateral Esq.",
+                "Valor": "1,50 mi. €",
+                "DataNascimento": "28/08/2002",
+                "Numero": "45"
+            },
+            {
+                "Nome": "Dalbert",
+                "Posicao": "Lateral Esq.",
+                "Valor": "800 mil €",
+                "DataNascimento": "08/09/1993",
+                "Numero": "29"
+            },
+            {
+                "Nome": "Felipinho",
+                "Posicao": "Lateral Esq.",
+                "Valor": "500 mil €",
+                "DataNascimento": "13/01/1997",
+                "Numero": "6"
+            },
+            {
+                "Nome": "Igor Cariús",
+                "Posicao": "Lateral Esq.",
+                "Valor": "400 mil €",
+                "DataNascimento": "01/05/1993",
+                "Numero": "16"
+            },
+            {
+                "Nome": "Helibelton Palacios",
+                "Posicao": "Lateral Dir.",
+                "Valor": "1,00 mi. €",
+                "DataNascimento": "11/06/1993",
+                "Numero": "93"
+            },
+            {
+                "Nome": "Leonel Di Placido",
+                "Posicao": "Lateral Dir.",
+                "Valor": "500 mil €",
+                "DataNascimento": "28/01/1994",
+                "Numero": "20"
+            },
+            {
+                "Nome": "Felipe",
+                "Posicao": "Volante",
+                "Valor": "900 mil €",
+                "DataNascimento": "10/04/1994",
+                "Numero": "94"
+            },
+            {
+                "Nome": "Julián Fernández",
+                "Posicao": "Volante",
+                "Valor": "350 mil €",
+                "DataNascimento": "22/03/1995",
+                "Numero": "-"
+            },
+            {
+                "Nome": "Pedro Martins",
+                "Posicao": "Volante",
+                "Valor": "300 mil €",
+                "DataNascimento": "28/06/2000",
+                "Numero": "48"
+            },
+            {
+                "Nome": "Fabinho",
+                "Posicao": "Volante",
+                "Valor": "250 mil €",
+                "DataNascimento": "19/11/1986",
+                "Numero": "7"
+            },
+            {
+                "Nome": "Luciano",
+                "Posicao": "Volante",
+                "Valor": "",
+                "DataNascimento": "26/02/2003",
+                "Numero": "43"
+            },
+            {
+                "Nome": "Fabricio Domínguez",
+                "Posicao": "Meia Central",
+                "Valor": "600 mil €",
+                "DataNascimento": "24/06/1998",
+                "Numero": "8"
+            },
+            {
+                "Nome": "Pedro Vilhena",
+                "Posicao": "Meia Central",
+                "Valor": "600 mil €",
+                "DataNascimento": "18/02/2002",
+                "Numero": "17"
+            },
+            {
+                "Nome": "Fábio Matheus",
+                "Posicao": "Meia Central",
+                "Valor": "500 mil €",
+                "DataNascimento": "13/04/2003",
+                "Numero": "47"
+            },
+            {
+                "Nome": "Lucas André",
+                "Posicao": "Meia Central",
+                "Valor": "250 mil €",
+                "DataNascimento": "29/01/2003",
+                "Numero": "55"
+            },
+            {
+                "Nome": "Christian Ortíz",
+                "Posicao": "Meia Ofensivo",
+                "Valor": "700 mil €",
+                "DataNascimento": "20/08/1992",
+                "Numero": "59"
+            },
+            {
+                "Nome": "Lucas Lima",
+                "Posicao": "Meia Ofensivo",
+                "Valor": "600 mil €",
+                "DataNascimento": "09/07/1990",
+                "Numero": "19"
+            },
+            {
+                "Nome": "Lenny Lobato",
+                "Posicao": "Ponta Esquerda",
+                "Valor": "750 mil €",
+                "DataNascimento": "03/02/2001",
+                "Numero": "77"
+            },
+            {
+                "Nome": "Romarinho",
+                "Posicao": "Ponta Direita",
+                "Valor": "1,20 mi. €",
+                "DataNascimento": "01/03/1994",
+                "Numero": "11"
+            },
+            {
+                "Nome": "Chrystian Barletta",
+                "Posicao": "Ponta Direita",
+                "Valor": "1,20 mi. €",
+                "DataNascimento": "05/07/2001",
+                "Numero": "30"
+            },
+            {
+                "Nome": "Wellington Silva",
+                "Posicao": "Ponta Direita",
+                "Valor": "400 mil €",
+                "DataNascimento": "06/01/1993",
+                "Numero": "18"
+            },
+            {
+                "Nome": "Gustavo Coutinho",
+                "Posicao": "Centroavante",
+                "Valor": "1,80 mi. €",
+                "DataNascimento": "19/01/1999",
+                "Numero": "9"
+            },
+            {
+                "Nome": "Zé Roberto",
+                "Posicao": "Centroavante",
+                "Valor": "1,00 mi. €",
+                "DataNascimento": "14/09/1993",
+                "Numero": "99"
+            },
+            {
+                "Nome": "Vini Faria",
+                "Posicao": "Centroavante",
+                "Valor": "",
+                "DataNascimento": "15/11/1999",
+                "Numero": "14"
+            }
+        ]
+    },
+    {
+        "Id": 25,
+        "Nome": "América Mineiro",
+        "Estadio": "Estádio Raimundo Sampaio",
+        "Capacidade": "25000",
+        "Jogadores": [
+            {
+                "Nome": "Dalberson Ferreira",
+                "Posicao": "Goleiro",
+                "Valor": "300 mil €",
+                "DataNascimento": "13/01/1997",
+                "Numero": "31"
+            },
+            {
+                "Nome": "Jori",
+                "Posicao": "Goleiro",
+                "Valor": "250 mil €",
+                "DataNascimento": "15/03/1996",
+                "Numero": "12"
+            },
+            {
+                "Nome": "Elias",
+                "Posicao": "Goleiro",
+                "Valor": "100 mil €",
+                "DataNascimento": "12/07/1995",
+                "Numero": "1"
+            },
+            {
+                "Nome": "Cássio",
+                "Posicao": "Goleiro",
+                "Valor": "75 mil €",
+                "DataNascimento": "08/02/2002",
+                "Numero": "27"
+            },
+            {
+                "Nome": "Éder",
+                "Posicao": "Zagueiro",
+                "Valor": "800 mil €",
+                "DataNascimento": "05/04/1995",
+                "Numero": "33"
+            },
+            {
+                "Nome": "Lucão",
+                "Posicao": "Zagueiro",
+                "Valor": "400 mil €",
+                "DataNascimento": "23/03/1996",
+                "Numero": "3"
+            },
+            {
+                "Nome": "Pedro Barcelos",
+                "Posicao": "Zagueiro",
+                "Valor": "350 mil €",
+                "DataNascimento": "19/01/1996",
+                "Numero": "4"
+            },
+            {
+                "Nome": "Ricardo Silva",
+                "Posicao": "Zagueiro",
+                "Valor": "300 mil €",
+                "DataNascimento": "13/08/1992",
+                "Numero": "45"
+            },
+            {
+                "Nome": "Júlio",
+                "Posicao": "Zagueiro",
+                "Valor": "250 mil €",
+                "DataNascimento": "28/09/2003",
+                "Numero": "18"
+            },
+            {
+                "Nome": "Nicolas",
+                "Posicao": "Lateral Esq.",
+                "Valor": "1,40 mi. €",
+                "DataNascimento": "24/02/1997",
+                "Numero": "30"
+            },
+            {
+                "Nome": "Marlon",
+                "Posicao": "Lateral Esq.",
+                "Valor": "600 mil €",
+                "DataNascimento": "13/02/1994",
+                "Numero": "6"
+            },
+            {
+                "Nome": "Daniel Borges",
+                "Posicao": "Lateral Dir.",
+                "Valor": "600 mil €",
+                "DataNascimento": "23/03/1993",
+                "Numero": "20"
+            },
+            {
+                "Nome": "Mateus Henrique",
+                "Posicao": "Lateral Dir.",
+                "Valor": "450 mil €",
+                "DataNascimento": "02/10/2002",
+                "Numero": "36"
+            },
+            {
+                "Nome": "Wallisson",
+                "Posicao": "Volante",
+                "Valor": "500 mil €",
+                "DataNascimento": "23/09/1997",
+                "Numero": "77"
+            },
+            {
+                "Nome": "Alê",
+                "Posicao": "Volante",
+                "Valor": "300 mil €",
+                "DataNascimento": "06/06/1990",
+                "Numero": "16"
+            },
+            {
+                "Nome": "Juninho",
+                "Posicao": "Volante",
+                "Valor": "250 mil €",
+                "DataNascimento": "23/10/1987",
+                "Numero": "8"
+            },
+            {
+                "Nome": "Flávio",
+                "Posicao": "Volante",
+                "Valor": "200 mil €",
+                "DataNascimento": "15/06/2000",
+                "Numero": "39"
+            },
+            {
+                "Nome": "Rodriguinho",
+                "Posicao": "Meia Central",
+                "Valor": "500 mil €",
+                "DataNascimento": "05/06/2003",
+                "Numero": "75"
+            },
+            {
+                "Nome": "Moisés",
+                "Posicao": "Meia Central",
+                "Valor": "250 mil €",
+                "DataNascimento": "17/03/1988",
+                "Numero": "15"
+            },
+            {
+                "Nome": "Felipe Amaral",
+                "Posicao": "Meia Central",
+                "Valor": "250 mil €",
+                "DataNascimento": "08/07/2003",
+                "Numero": "19"
+            },
+            {
+                "Nome": "Martín Benítez",
+                "Posicao": "Meia Ofensivo",
+                "Valor": "1,40 mi. €",
+                "DataNascimento": "17/06/1994",
+                "Numero": "10"
+            },
+            {
+                "Nome": "Daniel Jr",
+                "Posicao": "Meia Ofensivo",
+                "Valor": "1,20 mi. €",
+                "DataNascimento": "09/05/2002",
+                "Numero": "80"
+            },
+            {
+                "Nome": "Gustavinho",
+                "Posicao": "Meia Ofensivo",
+                "Valor": "700 mil €",
+                "DataNascimento": "29/10/2001",
+                "Numero": "97"
+            },
+            {
+                "Nome": "Fernando Elizari",
+                "Posicao": "Meia Ofensivo",
+                "Valor": "350 mil €",
+                "DataNascimento": "05/04/1991",
+                "Numero": "5"
+            },
+            {
+                "Nome": "Fabinho",
+                "Posicao": "Ponta Esquerda",
+                "Valor": "1,50 mi. €",
+                "DataNascimento": "18/11/1999",
+                "Numero": "28"
+            },
+            {
+                "Nome": "Vinícius",
+                "Posicao": "Ponta Esquerda",
+                "Valor": "1,00 mi. €",
+                "DataNascimento": "03/08/1993",
+                "Numero": "7"
+            },
+            {
+                "Nome": "Adyson",
+                "Posicao": "Ponta Esquerda",
+                "Valor": "1,00 mi. €",
+                "DataNascimento": "22/09/2005",
+                "Numero": "44"
+            },
+            {
+                "Nome": "Felipe Azevedo",
+                "Posicao": "Ponta Esquerda",
+                "Valor": "150 mil €",
+                "DataNascimento": "10/01/1987",
+                "Numero": "11"
+            },
+            {
+                "Nome": "Vitor Jacaré",
+                "Posicao": "Ponta Direita",
+                "Valor": "1,40 mi. €",
+                "DataNascimento": "24/10/1999",
+                "Numero": "29"
+            },
+            {
+                "Nome": "Matheus Davó",
+                "Posicao": "Centroavante",
+                "Valor": "900 mil €",
+                "DataNascimento": "16/08/1999",
+                "Numero": "88"
+            },
+            {
+                "Nome": "Renato Marques",
+                "Posicao": "Centroavante",
+                "Valor": "600 mil €",
+                "DataNascimento": "09/12/2003",
+                "Numero": "78"
+            },
+            {
+                "Nome": "Brenner",
+                "Posicao": "Centroavante",
+                "Valor": "400 mil €",
+                "DataNascimento": "01/03/1994",
+                "Numero": "9"
+            },
+            {
+                "Nome": "Jonathas",
+                "Posicao": "Centroavante",
+                "Valor": "",
+                "DataNascimento": "06/03/1989",
+                "Numero": "99"
+            }
+        ]
+    },
+    {
+        "Id": 26,
+        "Nome": "Goiás EC",
+        "Estadio": "Estádio de Hailé Pinheiro",
+        "Capacidade": "14525",
+        "Jogadores": [
+            {
+                "Nome": "Tadeu",
+                "Posicao": "Goleiro",
+                "Valor": "1,50 mi. €",
+                "DataNascimento": "04/02/1992",
+                "Numero": "23"
+            },
+            {
+                "Nome": "Thiago Rodrigues",
+                "Posicao": "Goleiro",
+                "Valor": "150 mil €",
+                "DataNascimento": "20/10/1988",
+                "Numero": "1"
+            },
+            {
+                "Nome": "Ezequiel Oliveira",
+                "Posicao": "Goleiro",
+                "Valor": "100 mil €",
+                "DataNascimento": "13/06/2003",
+                "Numero": "-"
+            },
+            {
+                "Nome": "Murillo",
+                "Posicao": "Goleiro",
+                "Valor": "100 mil €",
+                "DataNascimento": "06/05/2000",
+                "Numero": "76"
+            },
+            {
+                "Nome": "Lucas Ribeiro",
+                "Posicao": "Zagueiro",
+                "Valor": "1,00 mi. €",
+                "DataNascimento": "19/01/1999",
+                "Numero": "14"
+            },
+            {
+                "Nome": "Reynaldo",
+                "Posicao": "Zagueiro",
+                "Valor": "1,00 mi. €",
+                "DataNascimento": "03/01/1997",
+                "Numero": "29"
+            },
+            {
+                "Nome": "Messias",
+                "Posicao": "Zagueiro",
+                "Valor": "600 mil €",
+                "DataNascimento": "03/11/1994",
+                "Numero": "37"
+            },
+            {
+                "Nome": "Édson",
+                "Posicao": "Zagueiro",
+                "Valor": "300 mil €",
+                "DataNascimento": "01/07/1991",
+                "Numero": "19"
+            },
+            {
+                "Nome": "David Braz",
+                "Posicao": "Zagueiro",
+                "Valor": "150 mil €",
+                "DataNascimento": "21/05/1987",
+                "Numero": "4"
+            },
+            {
+                "Nome": "Cristiano",
+                "Posicao": "Lateral Esq.",
+                "Valor": "650 mil €",
+                "DataNascimento": "29/08/1993",
+                "Numero": "12"
+            },
+            {
+                "Nome": "Sander",
+                "Posicao": "Lateral Esq.",
+                "Valor": "250 mil €",
+                "DataNascimento": "03/10/1990",
+                "Numero": "6"
+            },
+            {
+                "Nome": "DG",
+                "Posicao": "Lateral Esq.",
+                "Valor": "",
+                "DataNascimento": "29/03/2001",
+                "Numero": "36"
+            },
+            {
+                "Nome": "Dieguinho",
+                "Posicao": "Lateral Dir.",
+                "Valor": "1,00 mi. €",
+                "DataNascimento": "31/10/1995",
+                "Numero": "20"
+            },
+            {
+                "Nome": "Douglas Borel",
+                "Posicao": "Lateral Dir.",
+                "Valor": "500 mil €",
+                "DataNascimento": "30/03/2002",
+                "Numero": "2"
+            },
+            {
+                "Nome": "Diego Caito",
+                "Posicao": "Lateral Dir.",
+                "Valor": "100 mil €",
+                "DataNascimento": "07/06/2004",
+                "Numero": "22"
+            },
+            {
+                "Nome": "Aloísio",
+                "Posicao": "Volante",
+                "Valor": "600 mil €",
+                "DataNascimento": "03/05/1996",
+                "Numero": "16"
+            },
+            {
+                "Nome": "Wellington",
+                "Posicao": "Volante",
+                "Valor": "300 mil €",
+                "DataNascimento": "28/01/1991",
+                "Numero": "5"
+            },
+            {
+                "Nome": "Marcão",
+                "Posicao": "Volante",
+                "Valor": "200 mil €",
+                "DataNascimento": "14/01/1991",
+                "Numero": "77"
+            },
+            {
+                "Nome": "Nathan Melo",
+                "Posicao": "Volante",
+                "Valor": "100 mil €",
+                "DataNascimento": "20/03/2001",
+                "Numero": "70"
+            },
+            {
+                "Nome": "Juninho",
+                "Posicao": "Meia Central",
+                "Valor": "1,00 mi. €",
+                "DataNascimento": "23/01/2001",
+                "Numero": "50"
+            },
+            {
+                "Nome": "Ian Luccas",
+                "Posicao": "Meia Central",
+                "Valor": "500 mil €",
+                "DataNascimento": "11/02/2003",
+                "Numero": "25"
+            },
+            {
+                "Nome": "Jhonny Lucas",
+                "Posicao": "Meia Central",
+                "Valor": "400 mil €",
+                "DataNascimento": "21/02/2000",
+                "Numero": "21"
+            },
+            {
+                "Nome": "Victor Lustosa",
+                "Posicao": "Meia Central",
+                "Valor": "100 mil €",
+                "DataNascimento": "17/01/2003",
+                "Numero": "-"
+            },
+            {
+                "Nome": "Régis",
+                "Posicao": "Meia Ofensivo",
+                "Valor": "700 mil €",
+                "DataNascimento": "30/11/1992",
+                "Numero": "10"
+            },
+            {
+                "Nome": "Rafael Gava",
+                "Posicao": "Meia Ofensivo",
+                "Valor": "600 mil €",
+                "DataNascimento": "20/05/1993",
+                "Numero": "8"
+            },
+            {
+                "Nome": "Luiz Henrique",
+                "Posicao": "Meia Ofensivo",
+                "Valor": "150 mil €",
+                "DataNascimento": "18/03/1999",
+                "Numero": "88"
+            },
+            {
+                "Nome": "Alan Stence",
+                "Posicao": "Meia Ofensivo",
+                "Valor": "",
+                "DataNascimento": "03/07/2002",
+                "Numero": "-"
+            },
+            {
+                "Nome": "Mateus Gonçalves",
+                "Posicao": "Ponta Esquerda",
+                "Valor": "400 mil €",
+                "DataNascimento": "28/09/1994",
+                "Numero": "11"
+            },
+            {
+                "Nome": "Paulo Baya",
+                "Posicao": "Ponta Esquerda",
+                "Valor": "250 mil €",
+                "DataNascimento": "26/07/1999",
+                "Numero": "7"
+            },
+            {
+                "Nome": "Rildo",
+                "Posicao": "Ponta Direita",
+                "Valor": "1,00 mi. €",
+                "DataNascimento": "21/01/2000",
+                "Numero": "80"
+            },
+            {
+                "Nome": "Pedrinho",
+                "Posicao": "Ponta Direita",
+                "Valor": "500 mil €",
+                "DataNascimento": "23/03/2004",
+                "Numero": "17"
+            },
+            {
+                "Nome": "Welliton",
+                "Posicao": "Ponta Direita",
+                "Valor": "",
+                "DataNascimento": "14/07/2000",
+                "Numero": "31"
+            },
+            {
+                "Nome": "Thiago Galhardo",
+                "Posicao": "Centroavante",
+                "Valor": "800 mil €",
+                "DataNascimento": "20/07/1989",
+                "Numero": "33"
+            },
+            {
+                "Nome": "Ángelo Rodríguez",
+                "Posicao": "Centroavante",
+                "Valor": "300 mil €",
+                "DataNascimento": "04/04/1989",
+                "Numero": "9"
+            },
+            {
+                "Nome": "Edu",
+                "Posicao": "Centroavante",
+                "Valor": "300 mil €",
+                "DataNascimento": "05/03/1993",
+                "Numero": "99"
+            },
+            {
+                "Nome": "Denzel",
+                "Posicao": "Centroavante",
+                "Valor": "100 mil €",
+                "DataNascimento": "20/01/2003",
+                "Numero": "16"
+            },
+            {
+                "Nome": "Breno Herculano",
+                "Posicao": "Centroavante",
+                "Valor": "100 mil €",
+                "DataNascimento": "16/02/1999",
+                "Numero": "18"
+            }
+        ]
+    }
+]

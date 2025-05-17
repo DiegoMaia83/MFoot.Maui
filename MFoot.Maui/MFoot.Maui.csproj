@@ -55,11 +55,18 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Data\jogadores_serie_a.json" />
+	  <None Remove="Resources\Data\jogadores_serie_b.json" />
 	  <None Remove="Resources\Images\bg_01.jpg" />
 	  <None Remove="Resources\Images\clipboard_checklist_icon.svg" />
 	  <None Remove="Resources\Images\goal.png" />
 	  <None Remove="Resources\Images\pen_to_square_icon.svg" />
 	  <None Remove="Resources\Images\yellow_card.png" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <EmbeddedResource Include="Resources\Data\jogadores_serie_a.json" />
+	  <EmbeddedResource Include="Resources\Data\jogadores_serie_b.json" />
 	</ItemGroup>
 
 	<ItemGroup>

@@ -266,8 +266,37 @@ namespace MFoot.Maui.Aplicacao
                     { 3, "jogadores_serie_c" }
                 };
 
+                var assembly = typeof(BaseAplicacao).Assembly;
+
                 foreach (var file in dict)
                 {
+                    // Nome completo do recurso embutido
+                    string resourceName = $"MFoot.Maui.Resources.Data.{file.Value}.json";
+
+                    using Stream stream = assembly.GetManifestResourceStream(resourceName);
+                    if (stream != null)
+                    {
+                        using StreamReader reader = new StreamReader(stream);
+                        string json = reader.ReadToEnd();
+
+                        List<TimeJson> data = JsonSerializer.Deserialize<List<TimeJson>>(json);
+
+                        foreach (var time in data)
+                        {
+                            var t = new Time
+                            {
+                                Id = time.Id,
+                                Nome = time.Nome,
+                                Estadio = time.Estadio,
+                                Capacidade = time.Capacidade,
+                                Divisao = file.Key
+                            };
+
+                            listaTimes.Add(t);
+                        }
+                    }
+
+                    /*
                     string caminhoArquivo = $"C:\\Users\\diego\\Desktop\\Scripts\\GetPlayers\\GetPlayers\\JSON\\{file.Value}.json";                
 
                     if (File.Exists(caminhoArquivo))
@@ -290,6 +319,7 @@ namespace MFoot.Maui.Aplicacao
                             listaTimes.Add(t);
                         }
                     }
+                    */
                 }
 
                 return listaTimes;
