@@ -261,6 +261,33 @@ namespace MFoot.Maui.Aplicacao
             }
         }
 
+        public List<Jogador> ListarJogadoresComCartao(int tipoCartao, int qtdCartoes)
+        {
+            try
+            {
+                var sql = new StringBuilder();
+                sql.AppendFormat(" SELECT t1.*, CAST((JULIANDAY('{0}') - JULIANDAY(DataNascimento)) / 365.25 AS INTEGER) AS Idade ", GameConfiguration.DataAtual);
+                sql.Append(" FROM jogadores t1 ");
+                sql.AppendFormat(" WHERE (SELECT COUNT(*) FROM jogadores_cartoes WHERE JogadorId = t1.Id and TipoId = {0} and Concluido = 0 ) = {0} ", tipoCartao, qtdCartoes);
+
+                using (var reader = _conexaoSqLite.ExecuteReader(sql.ToString()))
+                {
+                    var jogadores = new List<Jogador>();
+
+                    while (reader.Read())
+                    {
+                        jogadores.Add(PopularJogador(reader));
+                    }
+
+                    return jogadores;
+                }
+            }
+            catch
+            {
+                throw;
+            }
+        }
+
         public Jogador RetornarJogador(int jogadorId)
         {
             try
@@ -393,7 +420,7 @@ namespace MFoot.Maui.Aplicacao
             }
         }
 
-        public void SubstituirJogadoreResistenciaBaixa()
+        public void SubstituirJogadoresResistenciaBaixa()
         {
             try
             {

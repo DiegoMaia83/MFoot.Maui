@@ -1,6 +1,7 @@
 ﻿using MFoot.Maui.Configuration;
 using MFoot.Maui.Domain;
 using MFoot.Maui.Models;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -281,6 +282,22 @@ namespace MFoot.Maui.Aplicacao
 
                             _timeAplicacao.InserirJogadorSuspensao(suspensao);
                         }                        
+                    }
+
+                    var jogadoresComTresCartoesAmarelos = _timeAplicacao.ListarJogadoresComCartao(2, 3);
+
+                    foreach (var jogador in jogadoresComTresCartoesAmarelos)
+                    {
+                        var suspensao = new JogadorSuspensao
+                        {
+                            CampeonatoId = rodada.CampeonatoId,
+                            TimeId = jogador.TimeId,
+                            JogadorId = jogador.Id,
+                            QuantidadeJogos = 1,
+                            Concluido = false
+                        };
+
+                        _timeAplicacao.InserirJogadorSuspensao(suspensao);
                     }
 
                     if (classificacaoCasa.Vitoria == 1)
