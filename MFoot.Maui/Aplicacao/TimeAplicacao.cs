@@ -261,14 +261,14 @@ namespace MFoot.Maui.Aplicacao
             }
         }
 
-        public List<Jogador> ListarJogadoresComCartao(int tipoCartao, int qtdCartoes)
+        public List<Jogador> ListarJogadoresComCartao(int tipoCartao, int qtdCartoes, int campeonatoId)
         {
             try
             {
                 var sql = new StringBuilder();
                 sql.AppendFormat(" SELECT t1.*, CAST((JULIANDAY('{0}') - JULIANDAY(DataNascimento)) / 365.25 AS INTEGER) AS Idade ", GameConfiguration.DataAtual);
                 sql.Append(" FROM jogadores t1 ");
-                sql.AppendFormat(" WHERE (SELECT COUNT(*) FROM jogadores_cartoes WHERE JogadorId = t1.Id and TipoId = {0} and Concluido = 0 ) = {0} ", tipoCartao, qtdCartoes);
+                sql.AppendFormat(" WHERE (SELECT COUNT(*) FROM jogadores_cartoes WHERE JogadorId = t1.Id and TipoId = {0} and Concluido = 0 and CampeonatoId = {0}  ) = {0} ", tipoCartao, qtdCartoes, campeonatoId);
 
                 using (var reader = _conexaoSqLite.ExecuteReader(sql.ToString()))
                 {
@@ -616,6 +616,27 @@ namespace MFoot.Maui.Aplicacao
                 sql.AppendFormat(" '{0}', ", suspensao.QuantidadeJogos);
                 sql.AppendFormat(" '{0}' ", suspensao.Concluido ? 1 : 0);
                 sql.Append(" ); ");
+
+                _conexaoSqLite.ExecuteNonQuery(sql.ToString());
+            }
+            catch
+            {
+                throw;
+            }
+        }
+
+        public void RemoverJogadorSuspensao(JogadorSuspensao suspensao)
+        {
+            try
+            {
+                var sql = new StringBuilder();
+                sql.Append(" UPDATE jogadores_suspensoes ");
+                sql.Append(" SET Concluido = '1' ");
+                sql.AppendFormat(" WHERE JogadorId = '{0}' ", suspensao.JogadorId);
+                sql.AppendFormat(" AND CampeonatoId = '{0}' ", suspensao.CampeonatoId);
+                sql.Append(" AND QuantidadeJogos = '1' ");
+                sql.Append(" AND Concluido = '0' ");
+
 
                 _conexaoSqLite.ExecuteNonQuery(sql.ToString());
             }

@@ -280,25 +280,10 @@ namespace MFoot.Maui.Aplicacao
                                 Concluido = false
                             };
 
+                            _timeAplicacao.RemoverJogadorSuspensao(suspensao);
                             _timeAplicacao.InserirJogadorSuspensao(suspensao);
                         }                        
-                    }
-
-                    var jogadoresComTresCartoesAmarelos = _timeAplicacao.ListarJogadoresComCartao(2, 3);
-
-                    foreach (var jogador in jogadoresComTresCartoesAmarelos)
-                    {
-                        var suspensao = new JogadorSuspensao
-                        {
-                            CampeonatoId = rodada.CampeonatoId,
-                            TimeId = jogador.TimeId,
-                            JogadorId = jogador.Id,
-                            QuantidadeJogos = 1,
-                            Concluido = false
-                        };
-
-                        _timeAplicacao.InserirJogadorSuspensao(suspensao);
-                    }
+                    }                    
 
                     if (classificacaoCasa.Vitoria == 1)
                         _timeAplicacao.AtualizaJogadoresVitoria(classificacaoCasa.TimeId);
@@ -321,6 +306,24 @@ namespace MFoot.Maui.Aplicacao
                     {
                         _timeAplicacao.AtualizaDadosJogador(jogador);
                     }
+                }
+
+
+                var jogadoresComTresCartoesAmarelos = _timeAplicacao.ListarJogadoresComCartao(2, 3, rodada.CampeonatoId);
+
+                foreach (var jogador in jogadoresComTresCartoesAmarelos)
+                {
+                    var suspensao = new JogadorSuspensao
+                    {
+                        CampeonatoId = rodada.CampeonatoId,
+                        TimeId = jogador.TimeId,
+                        JogadorId = jogador.Id,
+                        QuantidadeJogos = 1,
+                        Concluido = false
+                    };
+
+                    _timeAplicacao.RemoverJogadorSuspensao(suspensao);
+                    _timeAplicacao.InserirJogadorSuspensao(suspensao);
                 }
             }
             catch

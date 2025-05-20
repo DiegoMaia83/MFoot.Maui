@@ -212,7 +212,7 @@ public partial class SimularPartidas : ContentPage
             // Atualizar dados Pós Rodada
             _timeAplicacao.RecuperarResistenciaJogadoresPosRodada();
             _timeAplicacao.SubstituirJogadoresResistenciaBaixa();
-            // _timeAplicacao.SubstituirJogadoresSuspensos(); Está dando conflito ao substituir
+            _timeAplicacao.SubstituirJogadoresSuspensos();
 
             Application.Current.MainPage = _serviceProvider.GetService<HomePage>();
         }
